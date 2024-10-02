@@ -25,7 +25,7 @@ class TestClient {
 		int delayInMillis = 50;
 		for (char c : text.toCharArray()) {
 			element.sendKeys(String.valueOf(c));
-			Thread.sleep(delayInMillis); // Esperar el tiempo entre cada letra
+			Thread.sleep(delayInMillis);
 		}
 	}
 
