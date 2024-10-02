@@ -111,7 +111,6 @@ class TestClient {
 		driver.findElement(By.id("btn-cliente-page-add")).click();
 		slowTyping(driver.findElement(By.id("form-cliente-code")), "123456");
 		slowTyping(driver.findElement(By.id("form-cliente-nombre")), "Marcos Cabrera");
-		slowTyping(driver.findElement(By.id("form-cliente-documento")), "1212223");
 		slowTyping(driver.findElement(By.id("form-cliente-email")), "marcocabrera@yopmail.com");
 
 		WebElement selectElement = driver.findElement(By.id("form-cliente-tipo-documento"));
@@ -136,7 +135,6 @@ class TestClient {
 		slowTyping(driver.findElement(By.id("form-cliente-code")), "123456");
 		slowTyping(driver.findElement(By.id("form-cliente-nombre")), "Marcos Cabrera");
 		slowTyping(driver.findElement(By.id("form-cliente-documento")), "1212223");
-		slowTyping(driver.findElement(By.id("form-cliente-email")), "marcocabrera@yopmail.com");
 
 		WebElement selectElement = driver.findElement(By.id("form-cliente-tipo-documento"));
 		Select select = new Select(selectElement);
